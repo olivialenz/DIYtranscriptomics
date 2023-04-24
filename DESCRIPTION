@@ -37,3 +37,5 @@ Imports:
     tibble,
     tidyr,
     tinytex
+URL: https://github.com/olivialenz/DIYtranscriptomics
+BugReports: https://github.com/olivialenz/DIYtranscriptomics/issues
