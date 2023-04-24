@@ -1,0 +1,39 @@
+Package: DIYtranscriptomics
+Title: Reproduces the analysis carried out in the Spring 2023 course
+Version: 0.0.0.9000
+Authors@R: 
+    person("Olivia", "Lenz", , "lenzo@vet.upenn.edu", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: What the package does (one paragraph).
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Depends: 
+    R (>= 2.10)
+LazyData: true
+VignetteBuilder: knitr
+Imports: 
+    Biobase,
+    clusterProfiler,
+    cowplot,
+    dplyr,
+    DT,
+    edgeR,
+    enrichplot,
+    ggplot2,
+    gplots,
+    gprofiler2,
+    GSEABase,
+    GSVA,
+    gt,
+    knitr,
+    limma,
+    matrixStats,
+    msigdbr,
+    plotly,
+    RColorBrewer,
+    rmarkdown,
+    tibble,
+    tidyr,
+    tinytex
